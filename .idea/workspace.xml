@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7123309d-90bd-4d44-b564-efc561576e5e" name="Changes" comment="Restored the order package and its classes (Order, LineItem and Product">
-      <change afterPath="$PROJECT_DIR$/src/main/java/birds/BirdApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/birds/Hawk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/order/OrderDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/order/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shapes/CorrectedSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/birds/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/birds/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/birds/Ostrich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/birds/Ostrich.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileHandler/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileHandler/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/order/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/order/LineItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reportGeneration/RefactoredReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reportGeneration/RefactoredReportGenerator.java" afterDir="false" />
-    </list>
+    <list default="true" id="7123309d-90bd-4d44-b564-efc561576e5e" name="Changes" comment="Restored the order package and its classes (Order, LineItem and Product" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +25,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2WuQzns2EMjJLuwZtbKMPCtc0bZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
