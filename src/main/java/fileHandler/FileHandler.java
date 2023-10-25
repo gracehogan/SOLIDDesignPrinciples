@@ -79,7 +79,7 @@ public class FileHandler {
             String content = handler.readFile();
             System.out.println(content);
 
-            String jsonContent = "{\"name\": \"John\", \"age\": 30}";
+            String jsonContent = "{\"name\": \"Rachel\", \"age\": 30}";
             String xmlContent = handler.jsonToXml(jsonContent);
 
             handler.writeFile(xmlContent);

@@ -24,4 +24,8 @@ public class LineItem {
     public void setProduct(Product product) {
         this.product = product;
     }
+
+    public double getLineItemTotal()  {
+        return quantity* product.getPrice();
+    }
 }

@@ -1,6 +1,6 @@
 package tasks;
 
-public interface WorkTasks {
+public interface InitialWorkTasks {
     void startTask();
     void takeBreak();
     void resumeTask();

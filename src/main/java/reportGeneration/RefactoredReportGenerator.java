@@ -15,4 +15,5 @@ public class RefactoredReportGenerator {
         String formattedReport = formatter.formatReport(report);
         System.out.println(formattedReport);
     }
+
 }

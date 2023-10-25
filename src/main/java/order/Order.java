@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
+    private int orderNo;
     private List<LineItem> lineItems = new ArrayList<LineItem>();
 
     public void addLineItem(Product product, int quantity) {
@@ -13,7 +14,7 @@ public class Order {
     public double calculateTotal()  {
         double total = 0.0;
         for(LineItem lineItem : lineItems) {
-            total += (lineItem.getProduct().getPrice() * lineItem.getQuantity());
+            total += lineItem.getLineItemTotal();
         }
         return total;
     }
@@ -28,5 +29,9 @@ public class Order {
 
     public List<LineItem> getLineItems() {
         return lineItems;
+    }
+
+    public int getOrderNo() {
+        return orderNo;
     }
 }
