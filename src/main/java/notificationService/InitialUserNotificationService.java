@@ -1,13 +1,13 @@
 package notificationService;
 
 public class InitialUserNotificationService {
-    private InitialEmailNotifier emailNotifier;
+    private Notifier notifier;
 
-    public InitialUserNotificationService() {
-        this.emailNotifier = new InitialEmailNotifier();
+    public InitialUserNotificationService(Notifier notifier) {
+        this.notifier = notifier;
     }
 
     public void notifyUser(String message) {
-        emailNotifier.send(message);
+        notifier.send(message);
     }
 }

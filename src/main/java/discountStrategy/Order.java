@@ -2,24 +2,22 @@ package discountStrategy;
 
 public class Order {
     private double totalAmount;
+    private DiscountStrategy discountStrategy;
 
     public Order(double totalAmount) {
         this.totalAmount = totalAmount;
     }
 
+    public void setDiscountStrategy(DiscountStrategy discountStrategy) {
+        this.discountStrategy = discountStrategy;
+    }
+
     public double getTotalAmount() {
         return totalAmount;
     }
-
-    public double applyFlatDiscount() {
-        // Assume the flat discount is 20% of the total amount
-        return this.totalAmount - (this.totalAmount * 0.2);
+    public double applyDiscount() {
+        return discountStrategy.applyDiscount(this);
     }
 
-    public double applySeasonalDiscount() {
-        // Assume the seasonal discount is 10% of the total amount
-        return this.totalAmount - (this.totalAmount * 0.1);
-    }
 
-    // Other methods...
 }
